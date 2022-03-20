@@ -235,7 +235,7 @@ img{
 	color:white;
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
 	.areaHot{
 		height: 150px;
 		text-align: center;
@@ -245,7 +245,7 @@ img{
 		flex-wrap: wrap;
 	}
 	.areaHot ul li{
-		width: 75px;
+		width: 40%;
 		margin-top:5px;
 	}
 	.list li{
