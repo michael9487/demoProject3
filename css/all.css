@@ -218,6 +218,9 @@ img{
 .footer p{
 	color:orange;
 }
+.backtotop{
+	display: none;
+}
 .backtotop a{
 	position: fixed;
 	border:1px solid blue;
