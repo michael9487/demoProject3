@@ -23,8 +23,10 @@ function showData(e){
             str += `
                 <li>
                     <div class="picInfo" style="background:url(${data[i].Picture1}) no-repeat center center;">
-                        <h3>${data[i].Name}</h3>
-                        <p>${data[i].Zone}</p>        
+                        <div class="text-cover">
+                            <h3>${data[i].Name}</h3>
+                            <p>${data[i].Zone}</p> 
+                        </div>       
                     </div>
                     <div class="detail">
                         <div class="opentime">
@@ -62,8 +64,10 @@ changeArea.addEventListener('change',showData);
         str += `
             <li>
                 <div class="picInfo" style="background:url(${data[i].Picture1}) no-repeat center center;">
-                    <h3>${data[i].Name}</h3>
-                    <p>${data[i].Zone}</p>        
+                    <div class="text-cover">
+                        <h3>${data[i].Name}</h3>
+                        <p>${data[i].Zone}</p> 
+                    </div>       
                 </div>
                 <div class="detail">
                     <div class="opentime">
@@ -100,8 +104,10 @@ function showDataBtn(e){
             str += `
                 <li>
                     <div class="picInfo" style="background:url(${data[i].Picture1}) no-repeat center center;">
-                        <h3>${data[i].Name}</h3>
-                        <p>${data[i].Zone}</p>        
+                        <div class="text-cover">
+                            <h3>${data[i].Name}</h3>
+                            <p>${data[i].Zone}</p> 
+                        </div>      
                     </div>
                     <div class="detail">
                         <div class="opentime">

@@ -171,6 +171,13 @@ img{
 	justify-content: space-between;
 	align-items: end;
 }
+.text-cover{
+	width: 100%;
+	background-color: rgba(0,0,0,.4);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
 .picInfo h3{
 	padding: 10px;
 	font-size: 20px;
@@ -237,7 +244,6 @@ img{
 	background: blue;
 	color:white;
 }
-
 @media (max-width:550px) {
 	.areaHot{
 		height: 150px;
